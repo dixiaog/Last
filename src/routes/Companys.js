@@ -9,7 +9,7 @@ const Option = Select.Option;
 // const y = 2;
 // const z = 1;
 const gData =  [{
-  title: '标准111111',
+  title: '标准',
   key: '1',
   children: [{
     title: '宾客', key: '6',
