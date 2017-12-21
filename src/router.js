@@ -4,6 +4,7 @@ import { Input } from 'antd';
 import IndexPage from './routes/IndexPage';
 import Products from './routes/Products';
 import Companys from './routes/Companys';
+import Big from './routes/Big';
 
 function RouterConfig({ history }) {
   return (
@@ -12,6 +13,7 @@ function RouterConfig({ history }) {
         <Route path="/" exact component={IndexPage} />
         <Route path="/com" exact component={Companys} />
         <Route path="/products" exact component={Products} />
+        <Route path="/big" exact component={Big} />
       </Switch>
     </Router>
   );
